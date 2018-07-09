@@ -33,9 +33,9 @@ public class Chapter_3_1 {
 		list2.add(9);
 		
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-        System.out.println(df.format(new Date()));// 打印当前时间
+		System.out.println(df.format(new Date()));// 打印当前时间
 		printLots(list1, list2);
-        System.out.println(df.format(new Date()));
+		System.out.println(df.format(new Date()));
 	}
 	
 	public static <AnyType> void printLots(List<AnyType> L, List<Integer> P) {
@@ -47,10 +47,8 @@ public class Chapter_3_1 {
 		int start = 0;
 		
 		while (iterP.hasNext() ) {
-			
 			itemP = iterP.next();
 			System.out.println("Looking for position " + itemP);
-			
 			while (start < itemP && iterL.hasNext()) {
 				start ++;
 				itemL = iterL.next();
