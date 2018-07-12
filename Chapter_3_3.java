@@ -3,7 +3,7 @@ package practices.Chapter;
 
 
 /*
-	ÊµÏÖMyLinkedListµÄcontainsÀı³Ì¡£
+	å®ç°MyLinkedListçš„containsä¾‹ç¨‹ã€‚
 */
 
 class MyLinkedList<AnyType> implements Iterable<AnyType> {
@@ -12,7 +12,7 @@ class MyLinkedList<AnyType> implements Iterable<AnyType> {
 	private Node<AnyType> beginMarker;
 	private Node<AnyType> endMarker;
 	
-	/*Node½ÚµãÀà*/
+	/*NodeèŠ‚ç‚¹ç±»*/
 	private static class Node<AnyType> {
 		public Node(AnyType d, Node<AnyType> p, Node<AnyType> n) {
 			data = d;
